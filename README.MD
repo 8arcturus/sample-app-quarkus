@@ -10,16 +10,16 @@ A basic web application using [quarkus.io](https://quarkus.io/).
    
    3.2 Dependency Injection: http://0.0.0.0:8080/hello/greeting/quarkus
    
-    3.2.1 Annotate class using, `@ApplicationScoped`
+        3.2.1 Annotate class using, `@ApplicationScoped`
         
         @ApplicationScoped
         public class GreetingService {
-        }           
+        }        
         
-    3.2.2 Inject the dependency using, `@Inject`
+        3.2.2 Inject the dependency using, `@Inject`
         
-       @Inject
-       GreetingService service;
+        @Inject
+        GreetingService service;
        
    3.3 Async: http://0.0.0.0:8080/hello/async
     
