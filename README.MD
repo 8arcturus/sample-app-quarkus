@@ -48,7 +48,7 @@ A basic web application using [quarkus.io](https://quarkus.io/).
     </dependency>
     ```
    
-    6.2 Add annotations: `@Counted` / `@Timed` / `@Guage`
+    6.2 Add annotations: `@Counted` / `@Timed` / `@Guage` on the resources.
     
      
         
