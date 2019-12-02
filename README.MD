@@ -1,4 +1,4 @@
-A basic web application using _quarkus_.
+A basic web application using [quarkus.io](https://quarkus.io/).
 
 1. **Run tests:** `./mvnw test`
 
@@ -33,7 +33,9 @@ A basic web application using _quarkus_.
    
 4. **Package:** `./mvnw package`
 
-5. **Run Jar:** ``
+5. **Run Jar:** `java -jar target/sample-app-quarkus-1.0.0-SNAPSHOT-runner.jar`
+    
+    Runner jar is not a uber-jar. Dependencies exists inside `target/lib`.
 
 6. **Metrics:** http://0.0.0.0:8080/metrics (or) http://0.0.0.0:8080/metrics/application for custom metrics.        
     
